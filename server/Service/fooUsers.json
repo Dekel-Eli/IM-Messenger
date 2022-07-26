@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "nickname": "admeme",
+        "password": "admin",
+        "chatsIds": [ 1, 2, 3, 4, 5 ],
+        "photo": "profile_pic/admin_prof_pic.jpg",
+        "contactsIds": [2,3,4,5,6,7,8]
+
+    },
+    {
+        "id": 2,
+        "username": "mememan",
+        "nickname": "meme man",
+        "password": "meMeMan!1",
+        "chatsIds": [ 1 ],
+        "photo": "profile_pic/meme_man_prof_pic.png",
+        "contactsIds": [ 1, 3, 4, 5, 6, 7, 8 ]
+    },
+    {
+        "id": 3,
+        "username": "notsureif",
+        "nickname": "not sure if",
+        "password": "notSureIf!1",
+        "chatsIds": [ 2 ],
+        "photo": "profile_pic/not_sure_if_prof_pic.jpg",
+      "contactsIds": [ 1, 2, 4, 5, 6, 7, 8 ]
+
+    },
+    {
+        "id": 4,
+        "username": "pepefrog",
+        "nickname": "pepe",
+        "password": "pePepepe!1",
+        "chatsIds": [ 3 ],
+        "photo": "profile_pic/pepe_prof_pic.png",
+      "contactsIds": [ 1, 2, 3, 5, 6, 7, 8 ]
+
+    },
+    {
+        "id": 5,
+        "username": "stonedjerry",
+        "nickname": "Smith",
+        "password": "jerrYy!1",
+        "chatsIds": [ 4 ],
+        "photo": "profile_pic/stoned_jerry_prof_pic.png",
+      "contactsIds": [ 1, 2, 3, 4, 6, 7, 8 ]
+
+    },
+    {
+        "id": 6,
+        "username": "shreksmith",
+        "nickname": "Shrek Smith",
+        "password": "putmywifesnameoutofyourM0th!",
+        "chatsIds": [ 5 ],
+        "photo": "profile_pic/shrek_smith_prof_pic.jpg",
+      "contactsIds": [ 1, 2, 3, 4, 5, 7, 8 ]
+
+    },
+    {
+        "id": 7,
+        "username": "damaribareket",
+        "nickname": "Bareket",
+        "password": "Bd1",
+        "chatsIds": [],
+        "photo": "profile_pic/pokemon_500.jpg",
+      "contactsIds": [ 1, 2, 3, 4, 5, 6, 8 ]
+
+    },
+    {
+        "id": 8,
+        "username": "elidekel",
+        "nickname": "Dekel",
+        "password": "De1",
+        "chatsIds": [],
+        "photo": "profile_pic/nyan_cat.png",
+      "contactsIds": [ 1, 2, 3, 4, 5, 6, 7 ]
+
+    },
+    {
+        "id": 9,
+        "username": "foobob",
+        "nickname": "Bob Foo",
+        "password": "Bf1",
+        "chatsIds": [],
+        "photo": "profile_pic/shrek_smith_prof_pic.jpg",
+        "contactsIds": []
+
+    },
+    {
+        "id": 10,
+        "username": "a",
+        "nickname": "admin",
+        "password": "admin2",
+        "chatsIds": [],
+        "photo": "profile_pic/Pokemon_500.jpg",
+        "contactsIds": []
+
+    },
+    {
+        "id": 11,
+        "username": "foobar",
+        "nickname": "Bar Foo",
+        "password": "Bf1",
+        "chatsIds": [],
+        "photo": "profile_pic/shrek_smith_prof_pic.jpg",
+        "contactsIds": []
+
+    }
+]
+
+

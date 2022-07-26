@@ -1,0 +1,27 @@
+
+.clickable{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.item:hover {
+    color: #004085;
+    background-color: #cce5ff;
+}
+
+.item {
+    padding: 0.3rem 1.3rem;
+    background-color: #fff;
+}
+
+
+.menu {
+    position: absolute;
+    width: 100%;
+    top: 38px;
+    left: 0;
+  }
+
+.form-group {
+    position: relative;
+}

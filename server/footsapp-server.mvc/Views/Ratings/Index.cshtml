@@ -1,0 +1,68 @@
+﻿@model IEnumerable<footsapp_server.mvc.Models.Rating>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="back p-3">
+    <div class="rate">
+        <h1>Rate our app</h1>
+
+        <form asp-action="Index">
+            <div class="text-center">
+                <label class="form-label">Search by description:</label>
+                <input name="query" class="form-control" id="search" />  
+                <input type="submit" value="Search" class="btn btn-warning"/>
+            </div>
+        </form>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Rate)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.RateDescription)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Time)
+                    </th>
+                    <th scope="col">
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RateDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Time)
+                    </td>
+                    <td>
+                        <a class="action" asp-action="Edit" asp-route-id="@item.Id">✏</a> |
+                        <a class="action" asp-action="Details" asp-route-id="@item.Id">📝</a> |
+                        <a class="action" asp-action="Delete" asp-route-id="@item.Id">❌</a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Add a new rating</a>
+        </p>
+    </div>
+</div>

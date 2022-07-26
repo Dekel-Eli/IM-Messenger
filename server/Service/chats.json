@@ -1,0 +1,205 @@
+﻿[
+    {
+        "chatId": 0,
+        "lastUpdateDate": "getCurrentDate()",
+        "participants": [],
+        "messages": [
+        ]
+    },
+  {
+    "chatId": 1,
+    "lastUpdateDate": "2022-05-30T14:39:39.7009193",
+    "participants": [ 1, 2 ],
+    "messages": [
+      {
+        "messageId": 1,
+        "senderId": 2,
+        "receiverId": 1,
+        "date": "06/04/2022 12:00",
+        "content": {
+          "type": "text",
+          "data": "Hello"
+        }
+      },
+      {
+        "messageId": 2,
+        "senderId": 1,
+        "receiverId": 2,
+        "date": "06/04/2022 12:01",
+        "content": {
+          "type": "text",
+          "data": "FOOOOOO"
+        }
+      },
+      {
+        "messageId": 3,
+        "senderId": 1,
+        "receiverId": 2,
+        "date": "06/04/2022 12:02",
+        "content": {
+          "type": "text",
+          "data": "check it out"
+        }
+      },
+      {
+        "messageId": 4,
+        "senderId": 1,
+        "receiverId": 2,
+        "date": "06/04/2022 12:03",
+        "content": {
+          "type": "image",
+          "data": "profile_pic/nyan_cat.png"
+        }
+      }
+    ]
+  },
+  {
+    "chatId": 2,
+    "lastUpdateDate": "2022-05-29T14:35:39.7009193",
+    "participants": [ 1, 3 ],
+    "messages": [
+      {
+        "messageId": 1,
+        "senderId": 3,
+        "receiverId": 1,
+        "date": "08/04/2022 13:00",
+        "content": {
+          "type": "text",
+          "data": "Hi👌"
+        }
+      },
+      {
+        "messageId": 2,
+        "senderId": 1,
+        "receiverId": 3,
+        "date": "09/04/2022 12:02",
+        "content": {
+          "type": "text",
+          "data": "check it out"
+        }
+      },
+      {
+        "messageId": 3,
+        "senderId": 1,
+        "receiverId": 3,
+        "date": "09/04/2022 12:03",
+        "content": {
+          "type": "video",
+          "data": "Nyan_Cat_Short.mp4"
+        }
+      }
+
+    ]
+  },
+  {
+    "chatId": 3,
+    "lastUpdateDate": "2022-05-28T14:00:39.7009193",
+    "participants": [ 1, 4 ],
+    "messages": [
+      {
+        "messageId": 1,
+        "senderId": 4,
+        "receiverId": 1,
+        "date": "06/04/2022 12:00",
+        "content": {
+          "type": "text",
+          "data": "Hello"
+        }
+      },
+      {
+        "messageId": 2,
+        "senderId": 1,
+        "receiverId": 4,
+        "date": "06/04/2022 12:01",
+        "content": {
+          "type": "text",
+          "data": "HIIIii"
+        }
+      },
+      {
+        "messageId": 3,
+        "senderId": 4,
+        "receiverId": 1,
+        "date": "06/04/2022 12:02",
+        "content": {
+          "type": "text",
+          "data": "LOL"
+        }
+      },
+      {
+        "messageId": 4,
+        "senderId": 1,
+        "receiverId": 4,
+        "date": "06/04/2022 12:03",
+        "content": {
+          "type": "audio",
+          "data": "<audio controls> <source src=\"LOL.mp3\" type=\"audio/mpeg\" /> Your browser does not support the audio tag. </audio>"
+        }
+      }
+    ]
+  },
+  {
+    "chatId": 4,
+    "lastUpdateDate": "2022-05-27T13:30:39.7009193",
+    "participants": [ 1, 5 ],
+    "messages": [
+      {
+        "messageId": 1,
+        "senderId": 1,
+        "receiverId": 5,
+        "date": "08/04/2022 13:00",
+        "content": {
+          "type": "text",
+          "data": "YO👌"
+        }
+      },
+      {
+        "messageId": 2,
+        "senderId": 5,
+        "receiverId": 1,
+        "date": "09/04/2022 12:02",
+        "content": {
+          "type": "text",
+          "data": "look at this easy assignment 🤣🤣😂😂😂"
+        }
+      },
+      {
+        "messageId": 3,
+        "senderId": 5,
+        "receiverId": 1,
+        "date": "09/04/2022 12:03",
+        "content": {
+          "type": "file",
+          "data": "{\"type\": \"web client.pdf\",\"name\": \"Web client\"}"
+        }
+      }
+    ]
+  },
+  {
+    "chatId": 5,
+    "lastUpdateDate": "2022-05-26T20:23:39.7009193",
+    "participants": [ 1, 6 ],
+    "messages": [
+      {
+        "messageId": 1,
+        "senderId": 1,
+        "receiverId": 6,
+        "date": "06/04/2022 12:00",
+        "content": {
+          "type": "text",
+          "data": "Hello"
+        }
+      },
+      {
+        "messageId": 2,
+        "senderId": 6,
+        "receiverId": 1,
+        "date": "06/04/2022 12:01",
+        "content": {
+          "type": "text",
+          "data": "keep my wife's name out of your mouth!!"
+        }
+      }
+    ]
+  }
+]

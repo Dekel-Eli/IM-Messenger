@@ -1,0 +1,47 @@
+﻿@model footsapp_server.mvc.Models.Rating
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="back p-3">
+    <div class="rate">
+        <h1>Edit</h1>
+
+        <h4>Rating</h4>
+        <hr />
+        <div class="row">
+            <div >
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group text-center">
+                        <label asp-for="Rate" class="control-label"></label>
+                        <input asp-for="Rate" class="form-control" />
+                        <span asp-validation-for="Rate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="RateDescription" class="control-label"></label>
+                        <input asp-for="RateDescription" class="form-control" />
+                        <span asp-validation-for="RateDescription" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-1">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index" class="action">⬅</a>
+        </div>
+
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }
+    </div>
+</div>
